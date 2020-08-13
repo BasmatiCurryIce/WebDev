@@ -1,0 +1,139 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background: #092532; */
+  background-color: #1b262c;
+}
+
+header {
+  /* position: relative; */
+  height: 100px;
+  text-align: center;
+
+  /* position: relative; */
+
+  /* background-image: url(./photos/east.jpg); */
+  /* background: #ffffdd; */
+}
+
+.nav {
+  /* margin-bottom: 20px; */
+  height: 40px;
+}
+
+.nav2 {
+  padding-right: 60px;
+  padding-left: 60px;
+  height: 40px;
+  font-size: 20px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: all 1s linear;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.nav2:hover {
+  background: rgba(255, 255, 255, 0.5);
+  text-decoration: underline;
+}
+
+#mottoword {
+  position: absolute;
+  opacity: 0;
+  font-weight: bold;
+  font-size: 60px;
+  height: 800px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  transition: all 2s ease;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.motto {
+  height: 800px;
+  position: relative;
+}
+
+#mottoword:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.cuzofweek {
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  margin: 0px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 2px dashed white;
+
+  border-bottom-width: 2px;
+}
+.cow {
+  height: 300px;
+  display: flex;
+  /* background-color: #ffffdd; */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* margin-top: none; */
+}
+
+.mutton,
+.chicken,
+.thali,
+.mbiryani {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.specials {
+  opacity: 0;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 1s linear;
+  height: 300px;
+  width: 300px;
+}
+.specials:hover {
+  opacity: 1;
+}
+
+.stext {
+  font-weight: lighter;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.type {
+  background-color: transparent;
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 250px;
+}
+
+hr {
+  background-color: white;
+  width: 200px;
+  size: 5px;
+  height: 2px;
+}
+
+.cbg {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+}
